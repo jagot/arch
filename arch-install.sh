@@ -87,9 +87,9 @@ function install_powerpill()
 {
     echo "Installing Powerpill"
     deps="python-xdg aria2 pyalpm rsync"
-    python3_aur_url="https://aur.archlinux.org/packages/py/python3-aur/python3-aur.tar.gz"
-    pm2ml_url="https://aur.archlinux.org/packages/pm/pm2ml/pm2ml.tar.gz"
-    powerpill_url="https://aur.archlinux.org/packages/po/powerpill/powerpill.tar.gz"
+    python3_aur_url="https://aur.archlinux.org/cgit/aur.git/snapshot/python3-aur.tar.gz"
+    pm2ml_url="https://aur.archlinux.org/cgit/aur.git/snapshot/pm2ml.tar.gz"
+    powerpill_url="https://aur.archlinux.org/cgit/aur.git/snapshot/powerpill.tar.gz"
 
     # Install deps from official repos
     for p in "${(s/ /)deps}"; do
